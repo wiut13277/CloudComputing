@@ -8,7 +8,7 @@ namespace MVCAPP_13277.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly Uri baseAddress = new Uri("http://localhost:5298/");
+        private readonly Uri baseAddress = new Uri("http://ec2-34-226-148-36.compute-1.amazonaws.com/");
 
         private readonly HttpClient _httpClient;
 
